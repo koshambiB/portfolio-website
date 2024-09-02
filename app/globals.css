@@ -34,7 +34,7 @@
   left:20px;
   width:80%;
   height:1px;
-  background: linear-gradient(90deg,transparent,#88bdbc,transparent);
+  background: linear-gradient(90deg,#5a09ae,#1da6f3);
   animation-delay: 1s;
   animation:line-animate 2s linear infinite;
 }

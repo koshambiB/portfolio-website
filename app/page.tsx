@@ -2,6 +2,8 @@ import Image from "next/image";
 import Navbar from "@/components/NavBar";
 import About from "@/pages/About";
 import Skills from "@/pages/Skills";
+import Projects from "@/pages/Projects";
+
 export default function Home() {
   return (
     <>
@@ -11,6 +13,7 @@ export default function Home() {
       <p className="text-background text-5xl">ikugtyfdtrsea</p>
       <About/>
       <Skills/>
+      <Projects/>
       </main>
     </>
   );
