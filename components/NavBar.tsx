@@ -6,11 +6,11 @@ import Contact from '@/pages/Contact';
 import Projects from '@/pages/Projects';
 const Navbar = () => {
   return (
-    <nav className="fixed left-1/2 transform -translate-x-1/2 z-30 bg-gray-900 text-white rounded-full px-10 py-3" 
+    <nav className="fixed  h-20 top-0 z-30 bg-gray-900 text-white pt-7" 
     style={{ boxShadow: '0px 4px 10px rgba(0, 0, 0, 1)' }}
     >
-      <div className="flex space-x-8">
-        <Link href={'/About'}>
+      <div className="flex justify-center items-center space-x-8 ">
+        <Link href={'/About'}> 
         <p className="text_pages ">About</p>
         </Link>
         <Link href={'/Skills'}>

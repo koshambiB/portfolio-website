@@ -41,7 +41,7 @@ const config: Config = {
   		colors: {
 			background:'#02010a',
 			foreground:"#C5CBE3",
-			bluecolor:"#88bdbc",
+			bluecolor:"#8b7ff0",
 
 		}
   	}

@@ -8,7 +8,7 @@
 .text_pages{
   font-family:"Poppins",sans-serif;
   font-weight:400;
-  font-size: 18px;
+  font-size: 16px;
 }
 .line-container::before{
   content:'';

@@ -19,7 +19,7 @@ export function TracingBeamDemo() {
           {dummyContent.map((item, index) => (
             <div key={`content-${index}`} className="mb-10">
               
-              <p className={twMerge("text-xl mb-4")}>
+              <p className={twMerge("text-xl mb-6 mr-2")}>
                 {item.title}
               </p>
    
@@ -40,17 +40,13 @@ export function TracingBeamDemo() {
       description: (
         <>
           <Card>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
+            <CardHeader>
+              <CardDescription>Card Description</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p>Card Content</p>
+            </CardContent>
+          </Card>
 
         </>
       ),
@@ -63,17 +59,13 @@ export function TracingBeamDemo() {
           
         
           <Card>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
+            <CardHeader>
+              <CardDescription>Card Description</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p>Card Content</p>
+            </CardContent>
+          </Card>
 
         </>
       ),
@@ -83,17 +75,13 @@ export function TracingBeamDemo() {
       description: (
         <>
           <Card>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
+            <CardHeader>
+              <CardDescription>Card Description</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p>Card Content</p>
+            </CardContent>
+          </Card>
 
         </>
       ),

@@ -1,9 +1,11 @@
+import { CardHoverEffectDemo } from '@/app/project-cards'
 import React from 'react'
 
 const Projects = () => {
   return (
     <div className='text-foreground '>
-      <h1 className='text-foreground text-3xl  mb-10 font-poppins font-semibold'>Projects</h1>
+      <h1 className='text-foreground text-3xl  font-poppins font-semibold'>Projects</h1>
+      <CardHoverEffectDemo/>
     <p>
           Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
           deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
