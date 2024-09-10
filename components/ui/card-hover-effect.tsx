@@ -20,7 +20,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 py-10", // Added gap-2 for 8px spacing between items
         className
       )}
     >
@@ -50,7 +50,7 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <CardTitle>{item.title}</CardTitle>
+            <CardTitle><Link href={item.link}>{item.title}</Link></CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>
         </Link>
@@ -73,12 +73,13 @@ export const Card = ({
         className
       )}
     >
-      <div className="relative  z-50">
+      <div className="relative z-50">
         <div className="p-4">{children}</div>
       </div>
     </div>
   );
 };
+
 export const CardTitle = ({
   className,
   children,
@@ -92,6 +93,7 @@ export const CardTitle = ({
     </h4>
   );
 };
+
 export const CardDescription = ({
   className,
   children,

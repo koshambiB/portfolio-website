@@ -1,4 +1,4 @@
-import { HoverEffect } from "../components/ui/card-hover-effect";
+import { HoverEffect } from "./ui/card-hover-effect";
 
 export function CardHoverEffectDemo() {
   return (
@@ -9,23 +9,18 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
   {
-    title: "Stripe",
+    title: "Portfolio",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "I developed this website using Next and Tailwind CSS, incorporating components from ShadCN and Accertinity UI",
+    link: "https://github.com/koshambiB/portfolio-website",
   },
   {
-    title: "Netflix",
+    title: "FirstCheque",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "A freelancing platform featuring an AI-driven recommendation system, that I am devloping in collaboration with my teammates",
+    link: "https://github.com/schnell-sih/firstcheque",
   },
-  {
-    title: "Google",
-    description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
-  },
+
   /*
   {
     title: "Meta",

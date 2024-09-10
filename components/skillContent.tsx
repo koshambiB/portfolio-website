@@ -40,11 +40,9 @@ export function TracingBeamDemo() {
       description: (
         <>
           <Card>
-            <CardHeader>
-              <CardDescription>Card Description</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>Card Content</p>
+            <CardContent className="p-4 text-gray-400">
+              <button className="p-2 border border-zinc-500">React Js</button>
+              
             </CardContent>
           </Card>
 

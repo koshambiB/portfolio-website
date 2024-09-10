@@ -10,42 +10,9 @@
   font-weight:400;
   font-size: 16px;
 }
-.line-container::before{
-  content:'';
-  position:absolute;
-  left:20px;
-  width:100%;
-  height:1px;
-  background: linear-gradient(90deg,transparent,#88bdbc);
-  animation:line-animate 2s linear infinite;
-}
-@keyframes line-animate{
-  0%{
-    transform: translateX(-50%);
-  }
-  100%{
-    transform: translateX(50%);
-  }
 
-}
-.line-container::before{
-  content:'';
-  position:absolute;
-  left:20px;
-  width:80%;
-  height:1px;
-  background: linear-gradient(90deg,#5a09ae,#1da6f3);
-  animation-delay: 1s;
-  animation:line-animate 2s linear infinite;
-}
-@keyframes line-animate{
-  0%{
-    transform: translateX(-100%);
-  }
-  100%{
-    transform: translateX(50%);
-  }
-}
+
+
 
 
 

@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 export default function Layout({children}) {
   return (
     <html lang="en">
+      <head><script src="https://kit.fontawesome.com/58256cc3e5.js" crossOrigin="anonymous"></script></head>
       <body className="bg-gray-300 box-border overflow-y-auto"> 
         {children}
         </body>

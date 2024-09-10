@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		boxShadow: {
+			'glow':'0 0 10px rgba(139, 127, 240, 0.6)'
+		}, 
 		keyframes:{
 			'line':{
 				'0%':{ width : '0%'},
@@ -39,8 +42,8 @@ const config: Config = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
-			background:'#02010a',
-			foreground:"#C5CBE3",
+			background:'#000000',
+			foreground:"#FFFFFF",
 			bluecolor:"#8b7ff0",
 
 		}

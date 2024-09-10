@@ -1,5 +1,5 @@
 import React from 'react';
-import { TracingBeamDemo } from "../app/Sidebar";
+import { TracingBeamDemo } from "../components/skillContent";
 import {
   Card,
   CardContent,
