@@ -72,9 +72,9 @@ description: (
         {/* First line with 4 items */}
         <div className="flex space-x-6">
           <p>&bull; Node Js</p>
-          <p>&bull; Express Js</p>
+          
           <p>&bull; MongoDB</p>
-          <p>&bull; MySQL</p>
+          
         </div>
         
         {/* Second line with 3 items */}
