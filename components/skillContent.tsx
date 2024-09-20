@@ -37,49 +37,80 @@ export function TracingBeamDemo() {
   const dummyContent = [
     {
       title: "Frontend",
-      description: (
-        <>
-          <Card>
-            <CardContent className="p-4 text-gray-400">
-              <button className="p-2 border border-zinc-500">React Js</button>
-              
-            </CardContent>
-          </Card>
+description: (
+  <>
+    <Card>
+      <CardContent className="p-4 text-lg text-gray-400">
+        {/* First line with 4 items */}
+        <div className="flex space-x-6">
+          <p>&bull; React Js</p>
+          <p>&bull; Next Js</p>
+          <p>&bull; Accertinity UI</p>
+          <p>&bull; Tailwind CSS</p>
+        </div>
+        
+        {/* Second line with 3 items */}
+        <div className="flex space-x-6 mt-3">
+          <p>&bull; HTML</p>
+          <p>&bull; CSS</p>
+          <p>&bull; JavaScript</p>
+        </div>
+      </CardContent>
+    </Card>
+  </>
+),
 
-        </>
-      ),
-      
+    
     },
     {
       title: "Backend",
       description: (
         <>
           
-        
           <Card>
-            <CardHeader>
-              <CardDescription>Card Description</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>Card Content</p>
-            </CardContent>
-          </Card>
+      <CardContent className="p-4 text-lg text-gray-400">
+        {/* First line with 4 items */}
+        <div className="flex space-x-6">
+          <p>&bull; Node Js</p>
+          <p>&bull; Express Js</p>
+          <p>&bull; MongoDB</p>
+          <p>&bull; MySQL</p>
+        </div>
+        
+        {/* Second line with 3 items */}
+        <div className="flex space-x-6 mt-3">
+          <p>&bull; Firebase</p>
+          <p>&bull; Supabase</p>
+         
+        </div>
+      </CardContent>
+    </Card>
 
         </>
       ),
     },
     {
-      title: "Others",
+      title: "Languages & Other technologies",
       description: (
         <>
           <Card>
-            <CardHeader>
-              <CardDescription>Card Description</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>Card Content</p>
-            </CardContent>
-          </Card>
+      <CardContent className="p-4 text-lg text-gray-400">
+        {/* First line with 4 items */}
+        <div className="flex space-x-6">
+          <p>&bull; Java</p>
+          <p>&bull; C/C++</p>
+          <p>&bull; Python</p>
+          
+        </div>
+        
+        {/* Second line with 3 items */}
+        <div className="flex space-x-6 mt-3">
+          <p>&bull; Wireshark</p>
+          <p>&bull; Nmap</p>
+         
+        </div>
+      </CardContent>
+    </Card>
 
         </>
       ),

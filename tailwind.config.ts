@@ -27,8 +27,8 @@ const config: Config = {
 			'node':'node 2s forward',
 		},
 		fontFamily: {
-			poppins:['Poppins','sans-serif'],
-			// Add more fonts if needed
+			gowun:['Gowun Batang', 'serif'],
+			
 		  },
   		backgroundImage: {
   			'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
