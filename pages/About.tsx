@@ -2,11 +2,11 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="relative flex justify-center font-gowun items-center my-16">
-      <div className="text-center ml-16">
-        <p className="text-2xl   text-foreground">Hi, I am Koshambi Bardhan</p>
-        <p className="text-bluecolor text-3xl pt-5 pb-8">I am a full-stack developer</p>
-        <p className="text-md text-gray-500 pb-10">
+    <div className="relative flex justify-center font-gowun items-center pt-8 mb-12">
+      <div className="text-center ">
+        <p className="text-4xl   text-foreground">Hi, I am Koshambi Bardhan</p>
+        <p className="text-bluecolor text-3xl pt-5 pb-8">I am a Full-Stack Developer</p>
+        <p className="text-lg text-gray-500 pb-10">
         My current expertise lies heavily in front-end technologies, where I’m skilled in crafting engaging, user-friendly interfaces that prioritize both aesthetics and functionality.
         While I’m still in the early stages of mastering backend development, I’m actively expanding my knowledge in this area, learning the ins and outs of databases, server-side frameworks, and API integration.
         In addition to my development skills, I have a deep interest in cybersecurity and web exploitation, which keeps me aware of the security implications of my work.

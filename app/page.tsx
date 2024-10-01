@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Navbar from "@/components/NavBar";
 import About from "@/pages/About";
 import Skills from "@/pages/Skills";
 import Projects from "@/pages/Projects";
@@ -12,7 +11,7 @@ export default function Home() {
       style={{ boxShadow: "10px 0px 25px rgba(0, 0, 0, 0.7)" }}
     >
       <Header />
-      <div className="box-border ml-32 mt-8 mr-60">
+      <div className="box-border mx-32 mt-8 ">
         <About />
         <Skills />
         <Projects />

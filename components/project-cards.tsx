@@ -11,13 +11,13 @@ export const projects = [
   {
     title: "Portfolio",
     description:
-      "I developed this website using Next and Tailwind CSS, incorporating components from ShadCN and Accertinity UI",
+      "I developed this website using Next and Tailwind CSS, incorporating components from ShadCN and Accertinity UI.",
     link: "https://github.com/koshambiB/portfolio-website",
   },
   {
     title: "FirstCheque",
     description:
-      "A freelancing platform featuring an AI-driven recommendation system, that I am devloping in collaboration with my teammates",
+      "A freelancing platform featuring an AI-driven recommendation system, that I am devloping in collaboration with my peers.",
     link: "https://github.com/schnell-sih/firstcheque",
   },
 

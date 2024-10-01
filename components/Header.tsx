@@ -4,7 +4,7 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-    <div className='mt-10 mx-32 text-gray-400 font-gowun text-sm flex justify-between'>
+    <div className='mt-10 mx-32 text-gray-400 font-gowun text-md flex justify-between'>
         <p>bardhankoshambi2005@gmail.com</p>
         <div>
             <ul className='flex flex-col-1 '>
@@ -14,7 +14,7 @@ const Header = () => {
         </div>
         
     </div>
-    <hr className='my-6 mx-32 border-gray-500'/>
+    <hr className='my-6 mx-28 border-gray-500'/>
     </>
   )
 }

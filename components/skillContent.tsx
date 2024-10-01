@@ -19,7 +19,7 @@ export function TracingBeamDemo() {
           {dummyContent.map((item, index) => (
             <div key={`content-${index}`} className="mb-10">
               
-              <p className={twMerge("text-xl mb-6 mr-2")}>
+              <p className={twMerge("text-2xl mb-6 mr-2")}>
                 {item.title}
               </p>
    
