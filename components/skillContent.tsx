@@ -43,8 +43,8 @@ description: (
       <CardContent className="p-4 text-lg text-gray-400">
         {/* First line with 4 items */}
         <div className="flex space-x-6">
-          <p>&bull; React Js</p>
-          <p>&bull; Next Js</p>
+          <p>&bull; React.js</p>
+          <p>&bull; Next.js</p>
           <p>&bull; Accertinity UI</p>
           <p>&bull; Tailwind CSS</p>
         </div>
