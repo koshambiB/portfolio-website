@@ -20,7 +20,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 py-10", // Added gap-2 for 8px spacing between items
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-10", // Added gap-2 for 8px spacing between items
         className
       )}
     >

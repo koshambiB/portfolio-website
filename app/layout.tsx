@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Layout({children}:any) {
   return (
     <html lang="en">
-      <body className="bg-gray-300 box-border overflow-y-auto"> 
+      <body className="bg-gray-800 box-border overflow-y-auto"> 
         {children}
         </body>
     </html>

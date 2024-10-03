@@ -17,7 +17,7 @@ export const projects = [
   {
     title: "FirstCheque",
     description:
-      "A freelancing platform featuring an AI-driven recommendation system, that I am devloping in collaboration with my peers.",
+      "A freelancing platform that I am developing in collaboration with my peers features an innovative AI-driven recommendation system. This system is designed to analyze user profiles, preferences, and project requirements, enabling it to suggest the most suitable freelancers for clients and vice versa",
     link: "https://github.com/schnell-sih/firstcheque",
   },
 
@@ -28,6 +28,7 @@ export const projects = [
       "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
     link: "https://meta.com",
   },
+  /*
   {
     title: "Amazon",
     description:
