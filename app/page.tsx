@@ -7,8 +7,7 @@ import Header from "@/components/Header";
 export default function Home() {
   return (
     <div
-      className="m-5 sm:m-10 md:m-12 overflow-y-auto rounded-3xl bg-neutral-950    shadow-gray-900 shadow-xl"
-      style={{ boxShadow: "10px 0px 25px rgba(0, 0, 0, 0.7)" }}
+      className="bg-background"
     >
       <Header />
       <div className="flex flex-col items-center mt-8">

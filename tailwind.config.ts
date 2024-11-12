@@ -42,10 +42,11 @@ const config: Config = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
-			background:'#000000',
-			foreground:"#FFFFFF",
-			bluecolor:"#8b7ff0",
-
+			background:'#fff7e8',
+			foreground:"#000000",
+			greencolor:"#008000",
+			darkgreen:"#006600",
+			cardColor:"#fff5e3",
 		}
   	}
   },

@@ -39,8 +39,8 @@ export function TracingBeamDemo() {
       title: "Frontend",
 description: (
   <>
-    <Card>
-      <CardContent className="p-4 text-lg text-gray-400">
+    <Card className="shadow-xl">
+      <CardContent className="p-4 text-lg text-gray-700" style={{ backgroundColor: '#fff5e3' }}>
         {/* First line with 4 items */}
         <div className="flex space-x-6">
           <p>&bull; React.js</p>
@@ -67,8 +67,8 @@ description: (
       description: (
         <>
           
-          <Card>
-      <CardContent className="p-4 text-lg text-gray-400">
+          <Card className ="shadow-xl">
+      <CardContent className="p-4 text-lg text-gray-700" style={{ backgroundColor: '#fff5e3' }}>
         {/* First line with 4 items */}
         <div className="flex space-x-6">
           <p>&bull; Node Js</p>
@@ -93,8 +93,8 @@ description: (
       title: "Languages & Other technologies",
       description: (
         <>
-          <Card>
-      <CardContent className="p-4 text-lg text-gray-400">
+          <Card className="shadow-xl">
+      <CardContent className="p-4 text-lg text-gray-700" style={{ backgroundColor: '#fff5e3'}}>
         {/* First line with 4 items */}
         <div className="flex space-x-6">
           <p>&bull; Java</p>
