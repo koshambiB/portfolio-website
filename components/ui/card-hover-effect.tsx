@@ -20,7 +20,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 py-10", // Added gap-2 for 8px spacing between items
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 py-10", // Added gap-4 for spacing
         className
       )}
     >
@@ -50,7 +50,9 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <CardTitle><Link href={item.link}>{item.title}</Link></CardTitle>
+            <CardTitle>
+              <Link href={item.link}>{item.title}</Link>
+            </CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>
         </Link>
@@ -58,6 +60,7 @@ export const HoverEffect = ({
     </div>
   );
 };
+
 
 export const Card = ({
   className,
@@ -69,7 +72,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-full  w-full p-4 overflow-hidden bg-cardColor border border-zinc-800 dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
+        "rounded-2xl h-full w-full p-4 overflow-hidden bg-cardColor border border-zinc-800 dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
         className
       )}
     >
@@ -88,7 +91,7 @@ export const CardTitle = ({
   children: React.ReactNode;
 }) => {
   return (
-    <h4 className={cn("text-zinc-800 text-lg font-bold tracking-wide mt-4", className)}>
+    <h4 className={cn("text-zinc-800 text-base sm:text-lg lg:text-xl font-bold tracking-wide mt-4", className)}>
       {children}
     </h4>
   );
@@ -104,7 +107,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "mt-8 text-zinc-700 tracking-wide leading-relaxed text-md",
+        "mt-8 text-zinc-700 tracking-wide leading-relaxed text-sm sm:text-base lg:text-lg",
         className
       )}
     >

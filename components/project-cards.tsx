@@ -2,11 +2,12 @@ import { HoverEffect } from "./ui/card-hover-effect";
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mr-2 px-8 ">
+    <div className="max-w-5xl mx-auto px-6 sm:px-6 lg:px-10">
       <HoverEffect items={projects} />
     </div>
   );
 }
+
 export const projects = [
   {
     title: "Portfolio",

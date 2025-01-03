@@ -1,15 +1,14 @@
 "use client";
 import React from "react";
-import { TracingBeam } from "@/components/ui/tracing-beam";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card"; // Import Card and CardContent
 
-export function TracingBeamDemo() {
+const Skills = () => {
   return (
-    <TracingBeam className="px-6">
-      <div className="max-w-full px-3 sm:px-4 mx-auto pt-4 relative text-foreground">
+    <div className="mb-32 font-gowun px-6 sm:px-6 lg:px-10 mx-auto max-w-full">
+      <h1 className="text-foreground text-3xl font-semibold">Skills</h1>
+      <div className="mt-10 grid grid-cols-1 gap-8"> {/* Column Layout */}
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-12">
-            {/* Responsive Card Title */}
             <p className="text-base sm:text-lg md:text-xl font-semibold mb-4">
               {item.title}
             </p>
@@ -17,9 +16,11 @@ export function TracingBeamDemo() {
           </div>
         ))}
       </div>
-    </TracingBeam>
+    </div>
   );
-}
+};
+
+export default Skills;
 
 const dummyContent = [
   {
@@ -31,6 +32,7 @@ const dummyContent = [
             <p>&bull; React.js</p>
             <p>&bull; Next.js</p>
             <p>&bull; Tailwind CSS</p>
+            <p>&bull; Javascript</p>
             <p>&bull; HTML</p>
             <p>&bull; CSS</p>
           </div>
@@ -47,6 +49,7 @@ const dummyContent = [
             <p>&bull; Node.js</p>
             <p>&bull; MongoDB</p>
             <p>&bull; Firebase</p>
+            <p>&bull; Supabase</p>
           </div>
         </CardContent>
       </Card>
@@ -61,6 +64,8 @@ const dummyContent = [
             <p>&bull; Java</p>
             <p>&bull; C/C++</p>
             <p>&bull; Python</p>
+            <p>&bull; Wireshark</p>
+            <p>&bull; Nmap</p>
           </div>
         </CardContent>
       </Card>
