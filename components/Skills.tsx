@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"; // Import Card and Car
 
 const Skills = () => {
   return (
-    <div className="mb-32 font-gowun px-6 sm:px-6 lg:px-10 mx-auto max-w-full">
+    <div className="mb-18 font-gowun px-6 sm:px-6 lg:px-10 mx-auto max-w-full">
       <h1 className="text-foreground text-3xl font-semibold">Skills</h1>
       <div className="mt-10 grid grid-cols-1 gap-8"> {/* Column Layout */}
         {dummyContent.map((item, index) => (
