@@ -18,7 +18,7 @@ const About = () => {
 
     
         <a
-          href="/resume.pdf"
+          href="/resume2025.pdf"
           download="Koshambi_Bardhan_Resume.pdf"
           className="border border-gray-700 rounded-xl py-3 px-5 text-gray-700 hover:border-greencolor hover:text-greencolor"
         >

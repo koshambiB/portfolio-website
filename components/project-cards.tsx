@@ -10,10 +10,9 @@ export function CardHoverEffectDemo() {
 
 export const projects = [
   {
-    title: "Portfolio",
-    description:
-      "I developed this website using Next and Tailwind CSS, incorporating components from ShadCN and Accertinity UI.",
-    link: "https://github.com/koshambiB/portfolio-website",
+    title: "Celeris",
+    description:"An offline mobile payment application developed using Kotlin, Python, Java, and Supabase, this app enables secure peer-to-peer transactions even in low or no network areas by leveraging SMS broadcast services. It integrates a lightweight SQLite database and RESTful APIs for seamless sync once connectivity is restored.",
+    link:"https://github.com/celeris-schnell",
   },
   {
     title: "FirstCheque",
@@ -21,6 +20,13 @@ export const projects = [
       "A freelancing platform that I am developing in collaboration with my peers features an innovative AI-driven recommendation system. This system is designed to analyze user profiles, preferences, and project requirements, enabling it to suggest the most suitable freelancers for clients and vice versa",
     link: "https://github.com/schnell-sih/firstcheque",
   },
+  {
+    title: "Portfolio",
+    description:
+      "I developed this website using Next and Tailwind CSS, incorporating components from ShadCN and Accertinity UI.",
+    link: "https://github.com/koshambiB/portfolio-website",
+  },
+  
 
   /*
   {

@@ -31,6 +31,7 @@ const dummyContent = [
           <div className="flex flex-wrap gap-4 text-sm sm:text-base lg:text-lg">
             <p>&bull; React.js</p>
             <p>&bull; Next.js</p>
+            <p>&bull; Kotlin</p>
             <p>&bull; Tailwind CSS</p>
             <p>&bull; Javascript</p>
             <p>&bull; HTML</p>
