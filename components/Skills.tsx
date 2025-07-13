@@ -27,7 +27,7 @@ const dummyContent = [
     title: "Frontend",
     description: (
       <Card className="shadow-xl">
-        <CardContent className="p-4 text-gray-700 bg-[#fff5e3]">
+        <CardContent className="p-4 text-gray-700 bg-[#c2d7ee]">
           <div className="flex flex-wrap gap-4 text-sm sm:text-base lg:text-lg">
             <p>&bull; React.js</p>
             <p>&bull; Next.js</p>
@@ -45,7 +45,7 @@ const dummyContent = [
     title: "Backend",
     description: (
       <Card className="shadow-xl">
-        <CardContent className="p-4 text-gray-700 bg-[#fff5e3]">
+        <CardContent className="p-4 text-gray-700 bg-[#c2d7ee]">
           <div className="flex flex-wrap gap-4 text-sm sm:text-base lg:text-lg">
             <p>&bull; Node.js</p>
             <p>&bull; MongoDB</p>
@@ -60,7 +60,7 @@ const dummyContent = [
     title: "Languages & Other Technologies",
     description: (
       <Card className="shadow-xl">
-        <CardContent className="p-4 text-gray-700 bg-[#fff5e3]">
+        <CardContent className="p-4 text-gray-700 bg-[#c2d7ee]">
           <div className="flex flex-wrap gap-4 text-sm sm:text-base lg:text-lg">
             <p>&bull; Java</p>
             <p>&bull; C/C++</p>

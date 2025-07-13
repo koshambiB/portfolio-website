@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Layout({children}:any) {
   return (
-    <html lang="en">
+    <html lang="en" className="">
       <body className="bg-background overflow-y-auto"> 
         {children}
         </body>

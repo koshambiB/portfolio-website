@@ -7,7 +7,7 @@ import Header from "@/components/Header";
 export default function Home() {
   return (
     <div
-      className="bg-background"
+      className="bg-background min-h-screen"
     >
       <Header />
       <div className="flex flex-col items-center mt-8">
