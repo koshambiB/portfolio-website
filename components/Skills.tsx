@@ -65,8 +65,8 @@ const dummyContent = [
             <p>&bull; Java</p>
             <p>&bull; C/C++</p>
             <p>&bull; Python</p>
-            <p>&bull; Wireshark</p>
-            <p>&bull; Nmap</p>
+            <p>&bull; SQL</p>
+            <p>&bull; DevOps (basic knowledge)</p>
           </div>
         </CardContent>
       </Card>

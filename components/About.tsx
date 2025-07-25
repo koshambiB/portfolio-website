@@ -10,10 +10,9 @@ const About = () => {
         <p className="text-2xl md:text-4xl text-foreground">Hi, I am Koshambi Bardhan</p>
         <p className="text-greencolor text-xl md:text-4xl pt-5 pb-8 font-bold">I am an open-source developer</p>
         <p className="text-sm md:text-xl text-justify md:text-center text-gray-700 font-extralight pb-10 leading-relaxed">
-          I have a strong ability to manage projects efficiently and thrive in collaborative environments, where open communication and teamwork are key to achieving goals.
-          I specialize in front-end technologies, crafting engaging and user-friendly interfaces.
-          I also have a keen interest in cybersecurity and web exploitation, actively dedicating time to learn best practices in the field.
-          My work is driven by curiosity and a desire to continuously improve, whether through learning new skills or finding ways to optimize processes.
+          I enjoy solving problems using data structures and algorithms - it's where I feel most confident and challenged. I primarily code in Java and Python, and I'm continuously working to deepen my understanding of core programming concepts through DSA.
+
+Alongside that, I've worked on a range of projects - mostly focused on front-end development and I enjoy building things that are both functional and visually appealing. I'm currently focused on refining my DSA skills while also working on new projects that help me apply what I've learned in practical ways.
         </p>
 
     
